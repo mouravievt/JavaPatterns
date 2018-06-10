@@ -7,7 +7,7 @@ public class MainApp {
 
     public static void main(String[] args){
         log.info("MainApp Started.");
-
+        log.info("temp");
         log.debug("MainApp is Debugging");
         log.info("MainApp Finished.");
     }
