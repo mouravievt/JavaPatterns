@@ -19,4 +19,12 @@ public class MishaSingleton {
         }
         return instance;
     }
+
+    public Date getCreated() {
+        return created;
+    }
+
+    public int getNum() {
+        return num;
+    }
 }
