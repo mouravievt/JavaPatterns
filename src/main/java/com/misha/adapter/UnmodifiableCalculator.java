@@ -6,6 +6,6 @@ package com.misha.adapter;
  */
 public class UnmodifiableCalculator {
     public double getArea(Rectangle rectangle){
-        return 0;
+        return rectangle.getLength() * rectangle.getWidth();
     }
 }
