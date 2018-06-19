@@ -12,6 +12,14 @@ public class Director {
         return motorcycle;
     }
 
+    public Vehicle createTricycle(){
+        Vehicle tricycle = builder.setNumberOfWheels(3)
+                .setColorOfVehicle("Blue")
+                .build();
+
+        return tricycle;
+    }
+
     public Vehicle createCar(){
         Vehicle car = builder.setNumberOfWheels(4)
                 .setNumberOfLights(2)

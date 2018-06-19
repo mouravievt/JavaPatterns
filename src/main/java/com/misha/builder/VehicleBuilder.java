@@ -22,6 +22,10 @@ public class VehicleBuilder {
 
     public Vehicle build(){
         Vehicle vehicle = new Vehicle();
+
+        vehicle.setColorOfVehicle(this.colorOfVehicle);
+        vehicle.setNumberOfWheels(this.numberOfWheels);
+        vehicle.setNumberOfLights(this.numberOfLights);
         return vehicle;
     }
 }
